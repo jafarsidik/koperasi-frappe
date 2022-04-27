@@ -1,0 +1,83 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-04-25 07:34:58.502659",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "nama_koperasi",
+  "nama_pemilik",
+  "no_hp_koperasi",
+  "telepon",
+  "email",
+  "column_break_6",
+  "kota__kabupaten",
+  "alamat"
+ ],
+ "fields": [
+  {
+   "fieldname": "nama_koperasi",
+   "fieldtype": "Data",
+   "label": "Nama Koperasi"
+  },
+  {
+   "fieldname": "nama_pemilik",
+   "fieldtype": "Data",
+   "label": "Nama Pemilik"
+  },
+  {
+   "fieldname": "no_hp_koperasi",
+   "fieldtype": "Data",
+   "label": "No HP Koperasi"
+  },
+  {
+   "fieldname": "telepon",
+   "fieldtype": "Data",
+   "label": "Telepon"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "kota__kabupaten",
+   "fieldtype": "Data",
+   "label": "Kota / Kabupaten"
+  },
+  {
+   "fieldname": "alamat",
+   "fieldtype": "Small Text",
+   "label": "Alamat"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2022-04-25 07:35:58.088095",
+ "modified_by": "Administrator",
+ "module": "Koperasi Cepjeff",
+ "name": "Identitas Koperasi",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

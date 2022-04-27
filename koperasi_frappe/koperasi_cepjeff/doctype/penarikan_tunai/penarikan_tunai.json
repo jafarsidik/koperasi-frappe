@@ -1,0 +1,127 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:TRK{#####}",
+ "creation": "2022-04-25 08:57:22.963632",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tanggal_transaksi",
+  "section_break_2",
+  "identitas_penerima_column",
+  "anggota",
+  "jenis_simpanan",
+  "jumlah_simpanan",
+  "keterangan",
+  "simpan_ke_kas",
+  "identitas_penyetor_column",
+  "nik_penyetor",
+  "nama_penyetor",
+  "no_hp",
+  "alamat"
+ ],
+ "fields": [
+  {
+   "fieldname": "tanggal_transaksi",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Tanggal Transaksi",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "identitas_penyetor_column",
+   "fieldtype": "Column Break",
+   "label": "Identitas Kuasa Pengambilan"
+  },
+  {
+   "fieldname": "nik_penyetor",
+   "fieldtype": "Data",
+   "label": "NIK Kuasa"
+  },
+  {
+   "fieldname": "nama_penyetor",
+   "fieldtype": "Data",
+   "label": "Nama Kuasa"
+  },
+  {
+   "fieldname": "alamat",
+   "fieldtype": "Data",
+   "label": "Alamat"
+  },
+  {
+   "fieldname": "identitas_penerima_column",
+   "fieldtype": "Column Break",
+   "label": "Identitas Penarikan"
+  },
+  {
+   "fieldname": "anggota",
+   "fieldtype": "Link",
+   "label": "Anggota",
+   "options": "Anggota",
+   "reqd": 1
+  },
+  {
+   "fieldname": "jenis_simpanan",
+   "fieldtype": "Link",
+   "label": "Jenis Simpanan",
+   "options": "Jenis Simpanan",
+   "reqd": 1
+  },
+  {
+   "fieldname": "jumlah_simpanan",
+   "fieldtype": "Currency",
+   "label": "Jumlah Penarikan",
+   "reqd": 1
+  },
+  {
+   "fieldname": "keterangan",
+   "fieldtype": "Data",
+   "label": "Keterangan"
+  },
+  {
+   "fieldname": "simpan_ke_kas",
+   "fieldtype": "Link",
+   "label": "Ambil Dari Ke Kas",
+   "options": "Account",
+   "reqd": 1
+  },
+  {
+   "fieldname": "no_hp",
+   "fieldtype": "Data",
+   "label": "No HP"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-04-25 09:00:57.673883",
+ "modified_by": "Administrator",
+ "module": "Koperasi Cepjeff",
+ "name": "Penarikan Tunai",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

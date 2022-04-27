@@ -1,0 +1,147 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-04-25 07:42:15.835231",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tipe_pinjaman_bunga",
+  "suku_bagi_hasil_pinjamnbunga_",
+  "biaya_administrasi_rp",
+  "biaya_denda_rp",
+  "column_break_7",
+  "tempo_tanggal_pembayaran",
+  "dana_cadangan_",
+  "jasa_anggota_",
+  "dana_pengurus_",
+  "column_break_13",
+  "dana_karyawan_",
+  "dana_pendidikan_",
+  "jasa_usaha_",
+  "dana_sosial_",
+  "column_break_15",
+  "jasa_modal_anggota_",
+  "pajak_pph_",
+  "dana_pengawas_",
+  "dana_asuransi_"
+ ],
+ "fields": [
+  {
+   "fieldname": "tipe_pinjaman_bunga",
+   "fieldtype": "Select",
+   "label": "Tipe Pinjaman Bunga",
+   "options": "Persen Bunga Dikali Angsuran Bulan\nPersen Bunga Dikali Total Pinjaman"
+  },
+  {
+   "fieldname": "suku_bagi_hasil_pinjamnbunga_",
+   "fieldtype": "Percent",
+   "label": "Suku Bagi Hasil Pinjamn(Bunga) (%)"
+  },
+  {
+   "fieldname": "biaya_administrasi_rp",
+   "fieldtype": "Currency",
+   "label": "Biaya Administrasi (Rp)"
+  },
+  {
+   "fieldname": "biaya_denda_rp",
+   "fieldtype": "Currency",
+   "label": "Biaya Denda (Rp)"
+  },
+  {
+   "fieldname": "tempo_tanggal_pembayaran",
+   "fieldtype": "Data",
+   "label": "Tempo Tanggal Pembayaran"
+  },
+  {
+   "fieldname": "dana_cadangan_",
+   "fieldtype": "Percent",
+   "label": "Dana Cadangan (%)"
+  },
+  {
+   "fieldname": "jasa_anggota_",
+   "fieldtype": "Percent",
+   "label": "Jasa Anggota (%)"
+  },
+  {
+   "fieldname": "dana_pengurus_",
+   "fieldtype": "Percent",
+   "label": "Dana Pengurus (%)"
+  },
+  {
+   "fieldname": "dana_karyawan_",
+   "fieldtype": "Percent",
+   "label": "Dana Karyawan (%)"
+  },
+  {
+   "fieldname": "dana_pendidikan_",
+   "fieldtype": "Percent",
+   "label": "Dana Pendidikan (%)"
+  },
+  {
+   "fieldname": "dana_sosial_",
+   "fieldtype": "Percent",
+   "label": "Dana Sosial (%)"
+  },
+  {
+   "fieldname": "jasa_usaha_",
+   "fieldtype": "Percent",
+   "label": "Jasa Usaha (%)"
+  },
+  {
+   "fieldname": "jasa_modal_anggota_",
+   "fieldtype": "Percent",
+   "label": "Jasa Modal Anggota (%)"
+  },
+  {
+   "fieldname": "pajak_pph_",
+   "fieldtype": "Percent",
+   "label": "Pajak PPh (%)"
+  },
+  {
+   "fieldname": "dana_pengawas_",
+   "fieldtype": "Percent",
+   "label": "Dana Pengawas (%)"
+  },
+  {
+   "fieldname": "dana_asuransi_",
+   "fieldtype": "Percent",
+   "label": "Dana Asuransi (%)"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_13",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_15",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2022-04-25 07:54:38.755834",
+ "modified_by": "Administrator",
+ "module": "Koperasi Cepjeff",
+ "name": "Biaya dan Administrasi",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
