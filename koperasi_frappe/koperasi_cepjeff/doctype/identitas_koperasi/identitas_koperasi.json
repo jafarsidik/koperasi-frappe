@@ -6,6 +6,7 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "logo",
   "nama_koperasi",
   "nama_pemilik",
   "no_hp_koperasi",
@@ -13,7 +14,16 @@
   "email",
   "column_break_6",
   "kota__kabupaten",
-  "alamat"
+  "alamat",
+  "legalitas_section",
+  "nomor_badan_hukum_awal",
+  "nomor_badan_hukum_akhir",
+  "tanggal_badan_hukum",
+  "column_break_14",
+  "sektor_usaha",
+  "bentuk_usaha",
+  "kelompok",
+  "jenis"
  ],
  "fields": [
   {
@@ -54,12 +64,64 @@
   {
    "fieldname": "column_break_6",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "logo",
+   "fieldtype": "Attach Image",
+   "hidden": 1,
+   "label": "Logo"
+  },
+  {
+   "fieldname": "legalitas_section",
+   "fieldtype": "Section Break",
+   "label": "Legalitas"
+  },
+  {
+   "fieldname": "nomor_badan_hukum_awal",
+   "fieldtype": "Data",
+   "label": "Nomor Badan Hukum Awal"
+  },
+  {
+   "fieldname": "nomor_badan_hukum_akhir",
+   "fieldtype": "Data",
+   "label": "Nomor Badan Hukum Akhir"
+  },
+  {
+   "fieldname": "tanggal_badan_hukum",
+   "fieldtype": "Date",
+   "label": "Tanggal Badan Hukum"
+  },
+  {
+   "fieldname": "column_break_14",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sektor_usaha",
+   "fieldtype": "Link",
+   "label": "Sektor Usaha",
+   "options": "Sektor Usaha"
+  },
+  {
+   "fieldname": "bentuk_usaha",
+   "fieldtype": "Data",
+   "label": "Bentuk Usaha"
+  },
+  {
+   "fieldname": "kelompok",
+   "fieldtype": "Data",
+   "label": "Kelompok"
+  },
+  {
+   "fieldname": "jenis",
+   "fieldtype": "Data",
+   "label": "Jenis"
   }
  ],
+ "image_field": "logo",
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2022-04-25 07:35:58.088095",
+ "modified": "2022-06-26 22:04:07.205439",
  "modified_by": "Administrator",
  "module": "Koperasi Cepjeff",
  "name": "Identitas Koperasi",
@@ -78,6 +140,5 @@
  ],
  "quick_entry": 1,
  "sort_field": "modified",
- "sort_order": "DESC",
- "states": []
+ "sort_order": "DESC"
 }

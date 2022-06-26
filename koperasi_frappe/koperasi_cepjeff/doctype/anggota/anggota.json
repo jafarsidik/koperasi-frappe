@@ -7,20 +7,25 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "profil_anggota_section",
+  "aktif_keanggotaan",
+  "tanggal_registrasi",
   "nik",
   "nama_lengkap",
   "jenis_kelamin",
   "tempat_lahir",
+  "column_break_8",
   "tanggal_lahir",
   "status_pernikahan",
   "pekerjaan",
   "agama",
-  "alamat",
-  "kota",
-  "nomor_telepon__hp",
-  "tanggal_registrasi",
-  "aktif_keanggotaan",
   "status_pinjaman",
+  "section_break_1",
+  "nomor_telepon__hp",
+  "email",
+  "kota",
+  "column_break_15",
+  "alamat",
   "foto",
   "amended_from"
  ],
@@ -125,16 +130,38 @@
    "options": "Anggota",
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "fieldname": "section_break_1",
+   "fieldtype": "Section Break",
+   "label": "Kontak"
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "profil_anggota_section",
+   "fieldtype": "Section Break",
+   "label": "Profil Anggota"
+  },
+  {
+   "fieldname": "column_break_15",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
   }
  ],
  "image_field": "foto",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-04-25 07:31:32.387079",
+ "modified": "2022-06-26 22:16:50.545636",
  "modified_by": "Administrator",
  "module": "Koperasi Cepjeff",
  "name": "Anggota",
- "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
@@ -153,7 +180,6 @@
  "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": [],
  "track_changes": 1,
  "track_seen": 1,
  "track_views": 1
